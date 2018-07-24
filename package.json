@@ -1,0 +1,45 @@
+{
+  "name": "idw2018-u4-garay-proyecto",
+  "version": "1.0.0",
+  "description": "proyecto unidad 4 ",
+  "main": "_config.js",
+  "bin": {
+    "idw2018-u4-garay-proyecto": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/index.js"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "async": "^2.5.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-jwt": "^5.3.0",
+    "http-status": "^1.0.1",
+    "jsonwebtoken": "^7.4.2",
+    "mongodb": "*",
+    "mongoose": "^4.11.7",
+    "path": "^0.12.7",
+    "qr-image": "^3.2.0",
+    "qrcode-npm": "0.0.3",
+    "sendgrid": "^5.2.3",
+    "socket.io": "^2.0.3",
+    "underscore": "^1.8.3",
+    "wagner-core": "^0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HectorGaray/IDW2018-U4-GARAY-PROYECTO.git"
+  },
+  "author": "Hector Garay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HectorGaray/IDW2018-U4-GARAY-PROYECTO/issues"
+  },
+  "homepage": "https://github.com/HectorGaray/IDW2018-U4-GARAY-PROYECTO#readme"
+}
